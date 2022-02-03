@@ -9,3 +9,12 @@ document.getElementById('userName').innerHTML = userName;
 let userSurname = prompt("Inserisci qui il tuo cognome");
 
 console.log(userSurname)
+
+//Prompt per inserire il colore preferito
+let userPrefColor = prompt("Inserisci qui il tuo colore preferito");
+
+console.log(userPrefColor)
+
+let userGeneratedPassword = (userName) + (userSurname) + (userPrefColor) + "21";
+
+document.getElementById('userNewPassword').innerHTML = userGeneratedPassword
