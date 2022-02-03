@@ -1,3 +1,8 @@
+//Alert di benvenuto
+alert("Benvenuto!")
+
+alert("Per favore compila le seguenti sezioni per generare una password personalizzata")
+
 //Prompt per inserire il nome e stamparlo dentro il titolo
 let userName = prompt("Inserisci qui il tuo nome");
 
