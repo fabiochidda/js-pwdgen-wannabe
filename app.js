@@ -20,6 +20,7 @@ let userPrefColor = prompt("Inserisci qui il tuo colore preferito");
 
 console.log(userPrefColor)
 
-let userGeneratedPassword = (userName) + (userSurname) + (userPrefColor) + "21";
+//Concatenazione variabili per generare la password
+let userGeneratedPassword = userName + userSurname + userPrefColor + "21";
 
 document.getElementById('userNewPassword').innerHTML = userGeneratedPassword
